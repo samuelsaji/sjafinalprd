@@ -1135,7 +1135,7 @@ input[type="text"] {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: #444545;
+  background: #ececec;
   top: 0;
   right: 0;
   top: 0;
@@ -1165,10 +1165,12 @@ input[type="text"] {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
 }
 #fh5co-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }
 #fh5co-offcanvas ul {
   padding: 0;
