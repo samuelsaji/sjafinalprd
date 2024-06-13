@@ -121,6 +121,14 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 600;
   font-family: "Source Sans Pro", sans-serif;
 }
+@media only screen and (max-width: 768px) {
+  .fh5co-nav #fh5co-logo{
+    width: 170px;
+    margin-left: -9px;
+  }
+}
+
+
 .fh5co-nav #fh5co-logo a span {
   color: #000000;
 }
@@ -447,6 +455,9 @@ li {
   z-index: 1;
   margin-bottom: 0;
 }
+
+
+
 #fh5co-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
@@ -458,9 +469,22 @@ li {
   min-height: 822px;
   position: relative;
 }
+@media (max-width: 768px) {
+  #fh5co-hero .flexslider .slides li {
+   
+    background-size: contain; /* Ensure the full image is visible */
+    background-position: top;
+    height: 279px;
+    min-height: 33vh;
+
+     
+  }
+}
+
 @media (max-width: 767px) {
   #fh5co-hero {
       min-height: auto; /* Reset height for mobile devices */
+     
   }
 }
 
@@ -605,7 +629,7 @@ li {
   #fh5co-blog,
   #fh5co-counter,
   #fh5co-footer {
-    padding: 3em 1em;
+    padding: 1em 1em;
   }
 }
 
